@@ -122,3 +122,24 @@ nav ul li:hover {
   background-image: linear-gradient(left top, #000000, #cccccc);
   cursor: pointer;
 }
+
+/* line 50, icons/*.png */
+.icons-sprite, .icons-dude1, .icons-dude2 {
+  background: url('/images/icons-sdda72d91ad.png') no-repeat;
+}
+
+/* line 60, ../../../../../../dev/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-dude1 {
+  background-position: 0 -50px;
+}
+
+/* line 60, ../../../../../../dev/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-dude2 {
+  background-position: 0 0;
+}
+
+/* line 4, ../sass/_sprites.scss */
+.icon {
+  width: 50px;
+  height: 50px;
+}
