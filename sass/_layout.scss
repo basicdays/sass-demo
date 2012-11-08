@@ -1,0 +1,29 @@
+.page {
+	@include container;
+}
+
+header {
+	@include span-columns(12 omega);
+	padding: 1em;
+	background-color: black;
+	color: white;
+	border: 1px solid;
+	h1 {
+		@include span-columns(4);
+		@include text-shadow(1px 1px 1px #000, 3px 3px 5px #777);
+	}
+	nav {
+		@include span-columns(8 omega);
+		text-align: right;
+	}
+}
+
+.main {
+	@include span-columns(12 omega);
+	section {
+		@include span-columns(10);
+	}
+	aside {
+		@include span-columns(2 omega);
+	}
+}
