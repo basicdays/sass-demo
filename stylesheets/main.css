@@ -1,9 +1,9 @@
-/* line 1, C:/Users/basicdays/Wip/resources/sass-demo/sass/_typography.scss */
+/* line 1, ../sass/_typography.scss */
 body {
   font-family: sans-serif;
 }
 
-/* line 2, C:/Users/basicdays/Wip/resources/sass-demo/sass/_header.scss */
+/* line 2, ../sass/_header.scss */
 nav ul {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ nav ul {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 49, C:/dev/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_inline-block-list.scss */
+/* line 49, ../../../../../../dev/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_inline-block-list.scss */
 nav ul li {
   list-style-image: none;
   list-style-type: none;
@@ -24,7 +24,30 @@ nav ul li {
   *display: inline;
   white-space: nowrap;
 }
-/* line 4, C:/Users/basicdays/Wip/resources/sass-demo/sass/_header.scss */
+/* line 4, ../sass/_header.scss */
 nav ul li {
+  padding: .2em 1em;
   border: 1px solid #cccccc;
+  -webkit-border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -ms-border-radius: 0.8em;
+  -o-border-radius: 0.8em;
+  border-radius: 0.8em;
+  color: white;
+  background-color: black;
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #cccccc), color-stop(100%, #000000));
+  background-image: -webkit-linear-gradient(left top, #cccccc, #000000);
+  background-image: -moz-linear-gradient(left top, #cccccc, #000000);
+  background-image: -o-linear-gradient(left top, #cccccc, #000000);
+  background-image: linear-gradient(left top, #cccccc, #000000);
+}
+/* line 11, ../sass/_header.scss */
+nav ul li:hover {
+  background-color: #cccccc;
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #000000), color-stop(100%, #cccccc));
+  background-image: -webkit-linear-gradient(left top, #000000, #cccccc);
+  background-image: -moz-linear-gradient(left top, #000000, #cccccc);
+  background-image: -o-linear-gradient(left top, #000000, #cccccc);
+  background-image: linear-gradient(left top, #000000, #cccccc);
+  cursor: pointer;
 }

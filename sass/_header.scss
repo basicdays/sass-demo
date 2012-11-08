@@ -2,7 +2,17 @@ nav {
 	ul {
 		@include inline-block-list;
 		li {
+			padding: .2em 1em;
 			border: 1px solid $grey;
+			@include border-radius(.8em);
+			color: white;
+			background-color: $dark-grey;
+			@include background-image(linear-gradient(left top, $grey, $dark-grey));
+			&:hover {
+				background-color: $grey;
+				@include background-image(linear-gradient(left top, $dark-grey, $grey));
+				cursor: pointer;
+			}
 		}
 	}
 }
