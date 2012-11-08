@@ -1,0 +1,8 @@
+nav {
+	ul {
+		@include inline-block-list;
+		li {
+			border: 1px solid $grey;
+		}
+	}
+}

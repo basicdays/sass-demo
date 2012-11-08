@@ -1,0 +1,30 @@
+/* line 1, C:/Users/basicdays/Wip/resources/sass-demo/sass/_typography.scss */
+body {
+  font-family: sans-serif;
+}
+
+/* line 2, C:/Users/basicdays/Wip/resources/sass-demo/sass/_header.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 49, C:/dev/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_inline-block-list.scss */
+nav ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  white-space: nowrap;
+}
+/* line 4, C:/Users/basicdays/Wip/resources/sass-demo/sass/_header.scss */
+nav ul li {
+  border: 1px solid #cccccc;
+}
